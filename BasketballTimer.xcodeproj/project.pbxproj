@@ -13,6 +13,9 @@
 		9B39161723D2606F00D51711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B39161523D2606F00D51711 /* Main.storyboard */; };
 		9B39161923D2607000D51711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B39161823D2607000D51711 /* Assets.xcassets */; };
 		9B39161C23D2607000D51711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B39161A23D2607000D51711 /* LaunchScreen.storyboard */; };
+		9B39162423D2623000D51711 /* BuzzerSounding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9B39162323D2623000D51711 /* BuzzerSounding.mp3 */; };
+		9B3F0C9F23D5270700FAC994 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F0C9E23D5270700FAC994 /* SettingViewController.swift */; };
+		9B3F0CA123D6791E00FAC994 /* MatchTimeSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F0CA023D6791E00FAC994 /* MatchTimeSettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		9B39161823D2607000D51711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B39161B23D2607000D51711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B39161D23D2607000D51711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B39162323D2623000D51711 /* BuzzerSounding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BuzzerSounding.mp3; sourceTree = "<group>"; };
+		9B3F0C9E23D5270700FAC994 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		9B3F0CA023D6791E00FAC994 /* MatchTimeSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTimeSettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,11 @@
 				9B39161123D2606F00D51711 /* SceneDelegate.swift */,
 				9B39161323D2606F00D51711 /* ViewController.swift */,
 				9B39161523D2606F00D51711 /* Main.storyboard */,
+				9B3F0CA023D6791E00FAC994 /* MatchTimeSettingViewController.swift */,
+				9B3F0C9E23D5270700FAC994 /* SettingViewController.swift */,
 				9B39161823D2607000D51711 /* Assets.xcassets */,
 				9B39161A23D2607000D51711 /* LaunchScreen.storyboard */,
+				9B39162323D2623000D51711 /* BuzzerSounding.mp3 */,
 				9B39161D23D2607000D51711 /* Info.plist */,
 			);
 			path = BasketballTimer;
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B39161C23D2607000D51711 /* LaunchScreen.storyboard in Resources */,
+				9B39162423D2623000D51711 /* BuzzerSounding.mp3 in Resources */,
 				9B39161923D2607000D51711 /* Assets.xcassets in Resources */,
 				9B39161723D2606F00D51711 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3F0CA123D6791E00FAC994 /* MatchTimeSettingViewController.swift in Sources */,
 				9B39161423D2606F00D51711 /* ViewController.swift in Sources */,
 				9B39161023D2606F00D51711 /* AppDelegate.swift in Sources */,
 				9B39161223D2606F00D51711 /* SceneDelegate.swift in Sources */,
+				9B3F0C9F23D5270700FAC994 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S93A4URV76;
 				INFOPLIST_FILE = BasketballTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S93A4URV76;
 				INFOPLIST_FILE = BasketballTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
