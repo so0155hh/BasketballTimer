@@ -10,7 +10,7 @@ import UIKit
 
 class MatchTimeSettingViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
-    let matchTimerSettingArray : [Int] = [0,3,5,6,8,10,12,20]
+    let matchTimerSettingArray : [Int] = [3,5,6,8,10,12,20]
     
     let matchTimerSettingKey = "matchTimeTimer_value"
     
@@ -46,8 +46,4 @@ class MatchTimeSettingViewController: UIViewController, UIPickerViewDataSource, 
     
     @IBOutlet weak var matchTimerSetting: UIPickerView!
     
-   
-    
-    
-
 }

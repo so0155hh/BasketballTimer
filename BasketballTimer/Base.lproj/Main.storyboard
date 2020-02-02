@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FqI-jP-PQ5">
-    <device id="retina5_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FqI-jP-PQ5">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,23 +12,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BasketballTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ft3-3p-peW">
-                                <rect key="frame" x="20" y="44" width="374" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDs-FO-NrQ">
-                                <rect key="frame" x="171.66666666666666" y="84" width="71" height="36"/>
+                                <rect key="frame" x="152" y="84" width="71" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mD-Sp-LYF">
-                                <rect key="frame" x="77" y="150" width="100" height="100"/>
+                                <rect key="frame" x="57.5" y="150" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="jGy-6t-oSS"/>
                                     <constraint firstAttribute="height" constant="100" id="mbG-Yr-rBu"/>
@@ -39,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gt4-kb-DCI">
-                                <rect key="frame" x="237" y="150" width="100" height="100"/>
+                                <rect key="frame" x="217.5" y="150" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="HxC-4h-f4q"/>
                                     <constraint firstAttribute="width" constant="100" id="yQe-Xf-0fD"/>
@@ -50,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmr-bX-a2U">
-                                <rect key="frame" x="77" y="150" width="100" height="100"/>
+                                <rect key="frame" x="57.5" y="150" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="OMq-91-k7z"/>
                                     <constraint firstAttribute="height" constant="100" id="SUI-gf-pUb"/>
@@ -60,58 +54,39 @@
                                     <action selector="matchTimeResetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ye-2u-pTb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shot Clock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPJ-21-tWH">
-                                <rect key="frame" x="20" y="280" width="374" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Yg-7w-ERd">
-                                <rect key="frame" x="171.66666666666666" y="320" width="71" height="36"/>
+                                <rect key="frame" x="152" y="296" width="71" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yuE-cn-2ia">
-                                <rect key="frame" x="77" y="386" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="EHo-7b-cPc"/>
-                                    <constraint firstAttribute="width" constant="100" id="TKX-Xy-YzM"/>
-                                </constraints>
-                                <state key="normal" image="startbtn"/>
-                                <connections>
-                                    <action selector="shotClockStartReset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="52s-Mq-sfv"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0R-Wn-73P">
-                                <rect key="frame" x="77" y="386" width="100" height="100"/>
+                                <rect key="frame" x="57.5" y="362" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="SMV-xP-Iho"/>
                                     <constraint firstAttribute="width" constant="100" id="SoQ-8T-St1"/>
                                 </constraints>
                                 <state key="normal" image="reloadbtn"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFL-zW-s5p">
-                                <rect key="frame" x="237" y="386" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="J8m-vX-wsy"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Xu1-19-Bon"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
-                                <state key="normal" title="14"/>
+                                <connections>
+                                    <action selector="shotClockResetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bnn-qg-Kci"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IQR-a7-5Zr">
-                                <rect key="frame" x="0.0" y="265" width="414" height="1"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="0.0" y="265" width="375" height="1"/>
+                                <color key="backgroundColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="AOg-Dh-IDy"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gA-UT-QKm">
-                                <rect key="frame" x="55" y="561" width="122" height="77"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o80-hE-3Gl">
+                                <rect key="frame" x="217.5" y="362" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Fmc-xT-PFi"/>
+                                    <constraint firstAttribute="height" constant="100" id="fSl-po-3Wg"/>
+                                </constraints>
+                                <state key="normal" image="reload14btn"/>
                                 <connections>
-                                    <segue destination="77m-8o-T8D" kind="show" id="u3e-hz-psL"/>
+                                    <action selector="fourteenResetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rSN-fW-8Ac"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -119,52 +94,47 @@
                         <constraints>
                             <constraint firstItem="3mD-Sp-LYF" firstAttribute="top" secondItem="MDs-FO-NrQ" secondAttribute="bottom" constant="30" id="0Ty-mQ-SNU"/>
                             <constraint firstItem="MDs-FO-NrQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3so-k4-DJK"/>
-                            <constraint firstItem="0gA-UT-QKm" firstAttribute="top" secondItem="yuE-cn-2ia" secondAttribute="bottom" constant="75" id="5mg-MP-kxt"/>
-                            <constraint firstItem="kPJ-21-tWH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="73w-Yq-ToU"/>
                             <constraint firstItem="Gt4-kb-DCI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="Aa1-RN-Wi1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0gA-UT-QKm" secondAttribute="bottom" constant="98" id="EYL-5m-AxD"/>
+                            <constraint firstItem="o80-hE-3Gl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="B8T-0h-zmz"/>
                             <constraint firstItem="Qmr-bX-a2U" firstAttribute="top" secondItem="MDs-FO-NrQ" secondAttribute="bottom" constant="30" id="Hkc-mA-LXq"/>
-                            <constraint firstItem="yuE-cn-2ia" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="K9j-HI-DA5"/>
-                            <constraint firstItem="ft3-3p-peW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="N2w-bi-43P"/>
-                            <constraint firstItem="bFL-zW-s5p" firstAttribute="top" secondItem="2Yg-7w-ERd" secondAttribute="bottom" constant="30" id="OVq-cx-g8D"/>
-                            <constraint firstItem="ft3-3p-peW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Oq1-ej-tQI"/>
-                            <constraint firstItem="0gA-UT-QKm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="RYM-fQ-6Sa"/>
                             <constraint firstItem="Qmr-bX-a2U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="SYv-d8-5Xt"/>
-                            <constraint firstItem="kPJ-21-tWH" firstAttribute="top" secondItem="3mD-Sp-LYF" secondAttribute="bottom" constant="30" id="WCV-2G-GR2"/>
                             <constraint firstItem="c0R-Wn-73P" firstAttribute="top" secondItem="2Yg-7w-ERd" secondAttribute="bottom" constant="30" id="Xaa-9W-MRU"/>
-                            <constraint firstItem="bFL-zW-s5p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="80" id="dVt-bk-v0F"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ft3-3p-peW" secondAttribute="trailing" constant="20" id="eCk-Cx-cfM"/>
-                            <constraint firstItem="2Yg-7w-ERd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eXJ-sQ-SW6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kPJ-21-tWH" secondAttribute="trailing" constant="20" id="jkU-4w-pUV"/>
+                            <constraint firstItem="2Yg-7w-ERd" firstAttribute="top" secondItem="IQR-a7-5Zr" secondAttribute="bottom" constant="30" id="acl-Ug-Ics"/>
                             <constraint firstItem="IQR-a7-5Zr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kUt-ko-ca9"/>
-                            <constraint firstItem="MDs-FO-NrQ" firstAttribute="top" secondItem="ft3-3p-peW" secondAttribute="bottom" constant="10" id="lgq-Bh-G15"/>
-                            <constraint firstItem="2Yg-7w-ERd" firstAttribute="top" secondItem="kPJ-21-tWH" secondAttribute="bottom" constant="10" id="nTe-Av-fDQ"/>
                             <constraint firstItem="c0R-Wn-73P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="p7b-OK-ffi"/>
                             <constraint firstItem="IQR-a7-5Zr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qTa-RD-9et"/>
                             <constraint firstItem="Gt4-kb-DCI" firstAttribute="top" secondItem="MDs-FO-NrQ" secondAttribute="bottom" constant="30" id="rOt-e1-86V"/>
+                            <constraint firstItem="MDs-FO-NrQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="rS4-cf-8wJ"/>
                             <constraint firstItem="IQR-a7-5Zr" firstAttribute="top" secondItem="3mD-Sp-LYF" secondAttribute="bottom" constant="15" id="rxV-J8-B0z"/>
-                            <constraint firstItem="0gA-UT-QKm" firstAttribute="trailing" secondItem="yuE-cn-2ia" secondAttribute="trailing" id="sdj-Op-WBC"/>
-                            <constraint firstItem="yuE-cn-2ia" firstAttribute="top" secondItem="2Yg-7w-ERd" secondAttribute="bottom" constant="30" id="tsT-ud-wCR"/>
+                            <constraint firstItem="o80-hE-3Gl" firstAttribute="top" secondItem="2Yg-7w-ERd" secondAttribute="bottom" constant="30" id="uAE-Hi-T06"/>
                             <constraint firstItem="IQR-a7-5Zr" firstAttribute="top" secondItem="Qmr-bX-a2U" secondAttribute="bottom" constant="15" id="wo1-yv-DtH"/>
+                            <constraint firstItem="2Yg-7w-ERd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zOi-yF-k2M"/>
                             <constraint firstItem="3mD-Sp-LYF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-80" id="zxp-Ho-4mo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="VS8-2E-0nn">
-                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="rNM-SA-Gpd">
+                        <barButtonItem key="leftBarButtonItem" title="GameTimeEdit" id="gDo-eq-wF7">
+                            <connections>
+                                <action selector="MatchTimerSettingBtnAction:" destination="BYZ-38-t0r" id="Un2-hf-JYi"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="ShotClockEdit" id="rNM-SA-Gpd">
                             <connections>
                                 <action selector="settingButtonAction:" destination="BYZ-38-t0r" id="6Gu-4w-stk"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="fourteenResetBtn" destination="o80-hE-3Gl" id="rNG-ks-3UX"/>
                         <outlet property="matchTimeLabel" destination="MDs-FO-NrQ" id="k3l-Rd-4E0"/>
                         <outlet property="matchTimeResetBtn" destination="Qmr-bX-a2U" id="8Xh-CR-9Cu"/>
                         <outlet property="matchTimeStartBtn" destination="3mD-Sp-LYF" id="Yhz-dQ-8Nk"/>
                         <outlet property="shotClockLabel" destination="2Yg-7w-ERd" id="C7m-D0-iRB"/>
                         <outlet property="shotClockResetBtn" destination="c0R-Wn-73P" id="sYb-9O-fkt"/>
-                        <outlet property="shotClockStartBtn" destination="yuE-cn-2ia" id="381-bi-hrN"/>
-                        <segue destination="GP6-KS-fmN" kind="show" identifier="goSetting" id="FKv-Oj-Rmm"/>
+                        <outlet property="stopBtn" destination="Gt4-kb-DCI" id="Frt-Jm-6K8"/>
+                        <segue destination="GP6-KS-fmN" kind="show" identifier="goShotClockSetting" id="FKv-Oj-Rmm"/>
+                        <segue destination="77m-8o-T8D" kind="show" identifier="goMatchTimerSetting" id="L4S-pf-aAQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -176,14 +146,14 @@
             <objects>
                 <viewController id="GP6-KS-fmN" customClass="SettingViewController" customModule="BasketballTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="deF-J3-Ib7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N3o-Xa-cjn">
-                                <rect key="frame" x="0.0" y="120" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="120" width="375" height="216"/>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ShotClock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFb-fW-j7Y">
-                                <rect key="frame" x="20" y="64" width="374" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shot Clock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFb-fW-j7Y">
+                                <rect key="frame" x="20" y="64" width="335" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -214,14 +184,14 @@
             <objects>
                 <viewController id="77m-8o-T8D" customClass="MatchTimeSettingViewController" customModule="BasketballTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mLg-Ra-o0i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22e-Ci-J6k">
-                                <rect key="frame" x="0.0" y="130" width="414" height="216"/>
+                                <rect key="frame" x="0.0" y="130" width="375" height="216"/>
                             </pickerView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Match Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yp4-d7-XQ9">
-                                <rect key="frame" x="20" y="64" width="374" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yp4-d7-XQ9">
+                                <rect key="frame" x="20" y="64" width="335" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -253,7 +223,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FqI-jP-PQ5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KUI-Aj-425">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -267,6 +237,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="reload14btn" width="300" height="278"/>
         <image name="reloadbtn" width="256" height="256"/>
         <image name="startbtn" width="256" height="256"/>
         <image name="stopbtn" width="256" height="256"/>

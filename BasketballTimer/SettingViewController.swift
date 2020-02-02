@@ -12,7 +12,7 @@ class SettingViewController: UIViewController, UIPickerViewDataSource, UIPickerV
 
     //shotClockのpickerViewに表示するデータ
     let shotClocksettingArray : [Int] = [0, 12, 24, 30]
-    //設定値を覚えるキーを設定。タイマー画面と共通のあキー
+    //設定値を覚えるキーを設定。タイマー画面と共通のキー
     let shotClockSettingKey = "shotClockTimer_value"
     
     override func viewDidLoad() {
